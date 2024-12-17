@@ -24,7 +24,7 @@ public class Fabricante {
         this.pais = newPais;
     }
 
-    public Fabricante fabricaMayorVentas(){
+    public static Fabricante fabricaMayorVentas(){
         Fabricante MayorVendedor = null;
         ArrayList<Fabricante> fabricantes = new ArrayList<>();
         ArrayList<String> nombresFabricantes = new ArrayList<>();
